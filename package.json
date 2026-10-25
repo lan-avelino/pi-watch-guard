@@ -1,0 +1,15 @@
+{
+  "name": "pi-watch-guard",
+  "version": "0.1.0",
+  "description": "Pi extension that forces one continuation when a subagent completion ends a turn with no live subagent.",
+  "type": "module",
+  "keywords": ["pi-package"],
+  "license": "MIT",
+  "author": "Lan Avelino",
+  "pi": {
+    "extensions": ["./extensions/watch-guard.js"]
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}
